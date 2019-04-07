@@ -48,9 +48,21 @@ int main ()
 	Point myp1(1,1),myp2(4,5);
 	Line line (myp1,myp2);
 	Line line2(line);
+
 	cout<<"The length of the line is"<<endl;
 	cout<<line.getLine ()<<endl;
 	cout<<"The length of the line2  is:"<<endl;
 	cout<<line2.getLine ()<<endl;
+	return 0;
+}
+#include <iostream>
+using namespace std;
+
+int mian ()
+{
+	int x;
+	x=5;
+	//x+=x-=x*x;
+	cout<<x;
 	return 0;
 }
